@@ -1,0 +1,437 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* ==============================
+===== For Desktop screen ========
+========== css starts ===========
+================================= */
+
+.page__content {
+    min-width: 1310px;
+}
+
+.header__section h1 {
+    color: #004750;
+    font-size: 56px;
+    line-height: 64px;
+}
+
+.header__section p {
+    color: #646464;
+}
+
+.content__section {
+    margin: 84px auto 0;
+    width: 1302px;
+    height: 800px;
+    border: 1px solid #E3EEF0;
+    border-radius: 355px;
+}
+
+.inner__content__third__pill {
+    width: 1156px;
+    height: 710px;
+    box-shadow: 0px 4px 200px rgba(198, 225, 230, 0.25);
+    border-radius: 355px;
+}
+
+.innerMost__content__dashed__border__second__pill {
+    width: 810px;
+    height: 488px;
+    border: 1px dashed #008C96;
+    border-radius: 355px;
+}
+
+.innerMostMost__content__first__pill {
+    width: 584px;
+    height: 314px;
+    border: 1px solid #D9F3F4;
+    border-radius: 355px;
+}
+
+.payquad__logo {
+    width: 234px;
+    height: 71px;
+    background: url(/image/payquad_logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 189px;
+    right: 186px;
+    bottom: 54px;
+    left: 164px;
+}
+
+.item__picture {
+    background-color: white;
+    width: 100px;
+    height: 81.68px;
+    margin-bottom: 10.32px;
+    box-shadow: 0px 4px 90px rgba(198, 225, 230, 0.8);
+    border-radius: 10px;
+}
+
+.item__title {
+    font-size: 22px;
+    line-height: 26px;
+    color: #004750;
+}
+
+.top__middle__item {
+    width: 138px;
+    height: 144px;
+    top: 36px;
+    right: 509px;
+    bottom: 530px;
+    left: 509px;
+}
+
+.top__middle__picture {
+    width: 72.52px;
+    height: 72.52px;
+}
+
+.top__right__item {
+    width: 182px;
+    height: 144px;
+    top: 152px;
+    right: 131px;
+    bottom: 414px;
+    left: 843px;
+}
+
+.top__right__picture {
+    width: 65.65px;
+    height: 65.65px;
+}
+
+.bottom__right__item {
+    width: 125px;
+    height: 121px;
+    top: 438px;
+    right: 178px;
+    bottom: 151px;
+    left: 853px;
+}
+
+.bottom__right__picture {
+    width: 65.65px;
+    height: 65.65px;
+}
+
+.bottom__middle__item {
+    width: 171px;
+    height: 118px;
+    top: 541px;
+    right: 443px;
+    bottom: 51px;
+    left: 542px;
+}
+
+.bottom__middle__picture {
+    width: 61.83px;
+    height: 61.83px;
+}
+
+.bottom__left__item {
+    width: 107px;
+    height: 118px;
+    top: 520px;
+    right: 772px;
+    bottom: 72px;
+    left: 277px;
+}
+
+.bottom__left__picture {
+    width: 62.6px;
+    height: 62.6px;
+}
+
+.middle__left__item {
+    width: 140px;
+    height: 118px;
+    top: 334px;
+    right: 916px;
+    bottom: 258px;
+    left: 100px;
+}
+
+.middle__left__picture {
+    width: 51.9px;
+    height: 51.9px;
+}
+
+.top__left__item {
+    width: 100px;
+    height: 118px;
+    top: 102px;
+    right: 850px;
+    bottom: 490px;
+    left: 206px;
+}
+
+.top__left__picture {
+    width: 41.33px;
+    height: 56.49px;
+}
+
+.tooltip {
+    position: relative;
+    background: rgb(255, 255, 255);
+    width: 315px;
+    height: 162px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 90px rgba(198, 225, 230, 0.6);
+}
+
+.triangle {
+    display: block;
+    width: 35px;
+    height: 30px;
+    background-color: inherit;
+    position: absolute;
+    top: -30px;
+    left: calc(50% - 17px);
+    clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+}
+
+.top__middle__tooltip {
+    margin: 27px 22px 31px 20px;
+    color: #646464;
+}
+
+.top__right__tooltip {
+    margin: 27px 22px 31px 20px;
+    color: #646464;
+}
+
+.bottom__right__tooltip {
+    margin: 27px 22px 31px 20px;
+    color: #646464;
+}
+
+.bottom__middle__tooltip {
+    margin: 27px 22px 31px 20px;
+    color: #646464;
+}
+
+.bottom__left__tooltip {
+    margin: 27px 22px 31px 20px;
+    color: #646464;
+}
+
+.middle__left__tooltip {
+    margin: 27px 22px 31px 20px;
+    color: #646464;
+}
+
+.top__left__tooltip {
+    margin: 27px 22px 31px 20px;
+    color: #646464;
+}
+
+.top__middle__item:hover .tooltip,
+.top__right__item:hover .tooltip,
+.bottom__right__item:hover .tooltip,
+.bottom__middle__item:hover .tooltip,
+.bottom__left__item:hover .tooltip,
+.middle__left__item:hover .tooltip,
+.top__left__item:hover .tooltip {
+    display: block;
+}
+
+/* ==============================
+===== For Desktop screen ========
+========== css ends =============
+================================= */
+
+
+
+
+/* =============================
+For small screen (mobile phones)  
+========== css starts ==========
+===============================*/
+
+@media screen and (max-width: 1309.98px) {
+    .page__content {
+        min-width: 375px;
+    }
+
+    .header__section h1 {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .header__section p {
+        margin-top: 12px;
+        margin-left: 37px;
+        margin-right: 36px;
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    .content__section {
+        margin: 31.92px auto 0;
+        width: 367px;
+        height: 609px;
+    }
+
+    .inner__content__third__pill {
+        width: 325.85px;
+        height: 540.49px;
+    }
+
+    .innerMost__content__dashed__border__second__pill {
+        width: 228.32px;
+        height: 371.49px;
+    }
+
+    .innerMostMost__content__first__pill {
+        width: 164.61px;
+        height: 239.03px;
+    }
+
+    .payquad__logo {
+        width: 94px;
+        height: 28px;
+        top: 169.3px;
+        right: 37.96px;
+        bottom: 41.73px;
+        left: 32.65px;
+    }
+
+    .item__picture {
+        width: 56.63px;
+        height: 46.28px;
+        margin-bottom: 2.72px;
+    }
+
+    .item__title {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .top__middle__item {
+        width: 105px;
+        height: 89.1px;
+        top: 56px;
+        right: 110.85px;
+        bottom: 415.38px;
+        left: 110px;
+    }
+
+    .top__middle__picture {
+        width: 41.06px;
+        height: 41.09px;
+    }
+
+    .top__right__item {
+        width: 92px;
+        height: 125px;
+        top: 122px;
+        right: 2.85px;
+        bottom: 313.49px;
+        left: 231px;
+    }
+
+    .top__right__picture {
+        width: 37.17px;
+        height: 37.2px;
+    }
+
+    .bottom__right__item {
+        width: 91px;
+        height: 69px;
+        top: 353px;
+        right: 2.85px;
+        bottom: 138.49px;
+        left: 232px;
+    }
+
+    .bottom__right__picture {
+        width: 37.17px;
+        height: 37.2px;
+    }
+
+    .bottom__middle__item {
+        width: 86px;
+        height: 89.54px;
+        top: 434px;
+        right: 119.85px;
+        bottom: 36.95px;
+        left: 120px;
+    }
+
+    .bottom__middle__picture {
+        width: 35.01px;
+        height: 35.04px;
+    }
+
+    .bottom__left__item {
+        width: 78px;
+        height: 69px;
+        top: 385px;
+        right: 216.85px;
+        bottom: 106.49px;
+        left: 31px;
+    }
+
+    .bottom__left__picture {
+        width: 35.44px;
+        height: 35.47px;
+    }
+
+    .middle__left__item {
+        width: 102px;
+        height: 69px;
+        top: 237px;
+        right: 223.85px;
+        bottom: 254.49px;
+        left: 0px;
+    }
+
+    .middle__left__picture {
+        width: 29.39px;
+        height: 29.41px;
+    }
+
+    .top__left__item {
+        width: 62px;
+        height: 68.84px;
+        top: 122px;
+        right: 226.85px;
+        bottom: 369.65px;
+        left: 37px;
+    }
+
+    .top__left__picture {
+        width: 23.04px;
+        height: 32.01px;
+    }
+
+    .tooltip {
+        margin-top: 35px;
+        width: 120px;
+        height: 119px;
+    }
+
+    .tooltip div {
+        font-size: 11px;
+        line-height: 15px;
+        margin: 8px 2px 8px 3px;
+    }
+
+    .triangle {
+        width: 17px;
+        height: 30px;
+        top: -30px;
+        left: calc(50% - 8px);
+    }
+}
+
+/* =============================
+For small screen (mobile phones)  
+========== css ends ============
+===============================*/
